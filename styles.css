@@ -1,0 +1,38 @@
+html {
+    cursor: url("rukica.png"), auto !important;
+}
+
+a {
+    cursor: url("rukica2.png"), auto !important;
+}
+
+.content img {
+    cursor: url("rukica2.png"), auto !important;
+}
+
+@font-face {
+    font-family: 'gugi';
+    src: url('Gugi-Italic.woff2') format('woff2'),
+     
+}
+
+body {
+    font-family: 'gugi', sans-serif;
+    /* Use the custom font for the body text */
+}
+.static {
+  position:absolute;
+  background: white;
+   width: auto; 
+ max-height: 35%;
+}
+
+.static:hover {
+  opacity:0;
+}
+#imgClickAndChange:hover {
+    cursor: url("rukica2.png"), auto !important;
+}
+ .additional-images {
+            display: none;
+        }
