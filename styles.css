@@ -41,3 +41,6 @@ body {
 .gif-link:hover {
     /* Add any hover styles here */
 }
+.gif {
+    display: none;
+}
