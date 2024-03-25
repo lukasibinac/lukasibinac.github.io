@@ -15,19 +15,16 @@ document.addEventListener("DOMContentLoaded", function() {
   const gifs = document.querySelectorAll('.gif');
 
   gifs.forEach(gif => {
-    // Add a custom data attribute to store the original GIF source
-    gif.setAttribute('data-src', gif.src);
-    
-    // Pause GIFs initially
-    gif.src = '';
-
-    // Play GIFs on mouseover
-    gif.parentElement.addEventListener('mouseover', function() {
+    // Add event listeners for mouseenter and mouseleave
+    gif.parentElement.addEventListener('mouseenter', function() {
+      // Show and play GIF on hover
+      gif.style.display = 'block';
       gif.src = gif.getAttribute('data-src');
     });
 
-    // Pause GIFs on mouseout
-    gif.parentElement.addEventListener('mouseout', function() {
+    gif.parentElement.addEventListener('mouseleave', function() {
+      // Pause and hide GIF when mouse leaves
+      gif.style.display = 'none';
       gif.src = '';
     });
   });
