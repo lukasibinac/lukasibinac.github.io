@@ -2,12 +2,6 @@ html {
     cursor: url("rukica.png"), auto !important;
 }
 
-a {
-    cursor: url("rukica2.png"), auto !important;
-}
-
-.content img {
-    cursor: url("rukica2.png"), auto !important;
 }
 
 @font-face {
@@ -31,7 +25,7 @@ body {
   opacity:0;
 }
 #imgClickAndChange:hover {
-    cursor: url("rukica2.png"), auto !important;
+    cursor: pointer;
 }
  .additional-images {
             display: none;
