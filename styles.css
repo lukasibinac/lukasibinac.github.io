@@ -31,16 +31,3 @@ body {
  .additional-images {
             display: none;
         }
-/* Add styles for GIFs */
-.gif {
-    width: 200px; /* Adjust size as needed */
-    height: auto;
-}
-
-/* Optional: Style for link hover */
-.gif-link:hover {
-    /* Add any hover styles here */
-}
-.gif {
-    display: none;
-}
