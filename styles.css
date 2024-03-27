@@ -2,12 +2,17 @@ html {
     cursor: url("rukica.png"), auto !important;
 }
 
+a {
+    cursor: url("rukica2.png"), auto !important;
+}
+
+.content img {
+    cursor: url("rukica2.png"), auto !important;
 }
 
 @font-face {
     font-family: 'gugi';
-    src: url('lukasibinac.github.io
-/Gugi-Italic.woff2') format('woff2'),
+    src: url('Gugi-Italic.woff2') format('woff2'),
      
 }
 
@@ -26,8 +31,18 @@ body {
   opacity:0;
 }
 #imgClickAndChange:hover {
-    cursor: pointer;
+    cursor: url("rukica2.png"), auto !important;
 }
  .additional-images {
             display: none;
         }
+
+ .gif-container {
+        position: relative;
+        display: inline-block;
+    }
+    .gif-container img {
+        display: block;
+        width: 200px; /* Adjust as per your requirement */
+        height: auto;
+    }
